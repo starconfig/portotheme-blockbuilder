@@ -134,8 +134,8 @@ img.dam-content-image {
 }
 
 .mobile-menu.accordion-menu .has-sub .arrow {
-    width: 100%;
-    height: 30px;
+    width: 100% !important;
+    height: 60px !important; /* it depends on fonts sizes and line height*/
     z-index: 55;
     text-align: right;
 }
@@ -145,7 +145,6 @@ img.dam-content-image {
     font-weight: 600;
 }
 
-.mobile-menu.accordion-menu .has-sub .arrow { width: 100%;height: 30px;z-index: 55;text-align: right; }
 #side-nav-panel .accordion-menu .arrow {
     right: 10px;
 }
