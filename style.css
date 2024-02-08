@@ -133,21 +133,26 @@ img.dam-content-image {
     background-color: #f3e4ff;
 }
 
+/* sub menu links on mobile */
 .mobile-menu.accordion-menu .has-sub .arrow {
     width: 100% !important;
     height: 60px !important; /* it depends on fonts sizes and line height*/
     z-index: 55;
     text-align: right;
 }
-
 .accordion-menu li.menu-item>a {
-    line-height: 32px;
+   line-height: 32px;
     font-weight: 600;
 }
 
 #side-nav-panel .accordion-menu .arrow {
-    right: 10px;
+ 
 }
+
+#side-nav-panel .accordion-menu .arrow:before {
+    margin-right: 20px;
+}
+/* sub menu links on mobile */
 .py-6 {
 	padding-top: 6rem;
 	padding-bottom: 6rem;
